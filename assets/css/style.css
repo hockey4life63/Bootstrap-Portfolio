@@ -97,10 +97,22 @@ html, body{
 hr{
 	border-color: black;
 }
-.img-center{
-	display: block;
-	margin: 0 auto;
+.portfolio-panel{
+	margin-bottom: 100px;
 }
 .contact h2{
+	text-align: center;
+}
+/*ortfolio style*/
+.thumbnail-row{
+	margin-bottom: 10px;
+}
+.thumbnail-row img{
+	padding: 0;
+}
+.thumbnail-banner{
+	top: 200px;
+	background-color: gray;
+	z-index: 500;
 	text-align: center;
 }
