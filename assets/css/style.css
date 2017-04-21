@@ -85,14 +85,18 @@ html, body{
   padding: 23px 0 42px 10px;
 
 }
+.navbar{
+  border-bottom: 4px solid black;
+}
 /*panel styles*/
 #img-me{
-	width: 200px;
+	width: 300px;
 	margin:10px 20px 10px 0;
 }
 .panel-style{
 	background-color: lightgray;
 	color: black;
+  margin-bottom: 100px;
 }
 .foot-style{
 	background-color: black;
@@ -110,7 +114,10 @@ hr{
 .contact h2{
 	text-align: center;
 }
-/*ortfolio style*/
+.about-text{
+  font-size: 20px;
+}
+/*portfolio style*/
 .thumbnail-row{
 	margin-bottom: 10px;
 }
@@ -126,8 +133,15 @@ hr{
 .thumbnail-text{
   margin-top: -60px;
 }
+a{
+  color: black;
+  text-decoration: none;
+}
 .img-center img{
   height: 85px;
+}
+.small-text{
+  font-size: 30px;
 }
 h1{
   font-family: 'VT323', monospace;
@@ -148,16 +162,14 @@ h1{
   to{ margin-left: 100px; }
 }
 /*portfolio title animation*/
-#text-type{
-  display: inline;
-  animation:blink .75s 10, type 3s steps(10);
+#type{
+  width: 140px;
+  overflow: hidden;
+  animation:type 3s steps(10);
+/*  border-right: 5px solid black;*/
 }
 
-@keyframes blink {
-  from{ border-right: 5px solid black; }
-  to{ border: none; }
-}
 @keyframes type{
   from{width: 0;}
-  to{width: }
+  to{width: 145px;}
 }
