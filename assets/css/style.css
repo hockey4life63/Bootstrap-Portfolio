@@ -119,12 +119,14 @@ hr{
 }
 /*portfolio style*/
 .thumbnail-row{
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .thumbnail-row img{
 	padding: 0;
 }
 .thumbnail-banner{
+  position: absolute;
+  width: 90.5%;
 	top: 200px;
 	background-color: gray;
 	z-index: 500;
@@ -138,7 +140,7 @@ a{
   text-decoration: none;
 }
 .img-center img{
-  height: 85px;
+/*  height: 85px;*/
 }
 .small-text{
   font-size: 30px;
